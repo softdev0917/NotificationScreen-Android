@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">NotificationScreen</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_noticiation">NOTIFICATIONS</string>
+  <string name="title_new_notifications">NEW NOTIFICATIONS</string>
+  <string name="title_new_notification">NEW NOTIFICATION</string>
+  <string name="title_previous_notifications">PREVIOUS NOTIFICATIONS</string>
+  <string name="title_previous_notification">PREVIOUS NOTIFICATION</string>
+  <string name="started_following_you">started following you</string>
+  <string name="accepted_friend_request">accepted your friend request</string>
+  <string name="mentioned_you">mentioned you</string>
+  <string name="tagged_you">tagged you</string>
+  <string name="liked_your_post">liked your post</string>
+  <string name="commented">commented</string>
+  <string name="took_screenshot">took a screenshot of your flash post</string>
+
+</resources>

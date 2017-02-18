@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent" android:layout_height="130dp"
+              android:orientation="horizontal">
+
+  <com.example.ab.notificationscreen.HeadingImageView
+      android:id="@+id/thumb_pic"
+      android:layout_width="110dp"
+      android:layout_height="110dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="10dp"
+      android:src="@drawable/example_tilepic1"
+      android:adjustViewBounds="false"/>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="10dp"
+      android:layout_gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        >
+
+      <ImageView
+          android:id="@+id/like_icon"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:scaleType="fitXY"
+          android:layout_gravity="center_vertical"
+          android:src="@drawable/ico_notification_like"/>
+
+      <TextView
+          android:id="@+id/txt_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:gravity="center_vertical"
+          android:text="18 Likes"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_panel"
+        android:layout_above="@+id/users_icon_panel"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="17sp"
+        android:text="Yuki Hayashi, Chief Yin, Tim Neuner, Mary Hikita, ..."
+        />
+
+    <LinearLayout
+        android:id="@+id/users_icon_panel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/new_ago_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="15m" />
+
+  </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,177 @@
+{
+  "notifications":[
+    {
+      "type": "like",
+      "visited": false,
+      "likescount": 18,
+      "thumbImage": "example_tilepic1",
+      "peoples":[
+        {
+          "name": "Name 1",
+          "photo": "tkn_yuki_hayashi"
+        },
+        {
+          "name": "Name2",
+          "photo": "tkn_emily_yin"
+        },
+        {
+          "name": "Name 3",
+          "photo": "tkn_tim_neuner"
+        },
+        {
+          "name": "Name 4",
+          "photo": "tkn_mary_hikita"
+        },
+        {
+          "name": "Name 5",
+          "photo": "tkn_mary_hikita"
+        },
+        {
+          "name": "Name 6",
+          "photo": "tkn_mary_hikita"
+        }
+      ],
+      "lastModificationDate": "08-05-2016:14:25:30"
+    },
+    {
+      "type": "friendrequest",
+      "visited": false,
+      "profileImage": "tkn_large_mayumiono",
+      "username":"Mayumi Ono",
+      "lastModificationDate": "08-05-2016:10:20:30"
+    },
+    {
+      "type": "comments",
+      "visited": true,
+      "commentCount": 3,
+      "thumbImage": "example_tilepic1",
+      "peoples":[
+        {
+          "name": "Name A",
+          "photo": "tkn_tim_neuner",
+          "comment": "Wow I really need to ski! Where did you go this year? Did you stay in a Hotel?"
+        },
+        {
+          "name": "Name B",
+          "photo": "tkn_yuki_hayashi",
+          "comment": "I am Yuki Hayashi."
+        },
+        {
+          "name": "Name C",
+          "photo": "tkn_mary_hikita",
+          "comment": "I am Mary Hikita."
+        }
+      ],
+      "lastModificationDate": "08-05-2016:10:01:30"
+    },
+    {
+      "type": "follow",
+      "visited": true,
+      "profileImage": "tkn_large_mayumiono",
+      "username":"User Name",
+      "lastModificationDate": "03-05-2016:08:05:30"
+    },
+    {
+      "type": "mentions",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Name user",
+      "description": "mentioned you",
+      "comment": "Yeah Joe Smith I totally agree with you! Let's talk more when you get back in town. I'm...",
+      "lastModificationDate": "08-05-2016:07:12:30"
+    },
+    {
+      "type": "tagging",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Yuki Hayashi",
+      "comment": "with John Doe, Sam Jones, Mary Jane and Brent Thomas at Happo Ski Resort",
+      "lastModificationDate": "08-05-2016:03:05:30"
+    },
+    {
+      "type": "screenshots",
+      "visited": true,
+      "screenshotsCount": 9,
+      "thumbImage": "example_tilepic1",
+      "peoples":[
+        {
+          "name": "Yuki Hayashi",
+          "photo": "tkn_yuki_hayashi"
+        },
+        {
+          "name": "Chief Yin",
+          "photo": "tkn_emily_yin"
+        },
+        {
+          "name": "Tim Neuner",
+          "photo": "tkn_tim_neuner"
+        },
+        {
+          "name": "Mary Hikita",
+          "photo": "tkn_mary_hikita"
+        },
+        {
+          "name": "Mary Hikita",
+          "photo": "tkn_mary_hikita"
+        },
+        {
+          "name": "Mary Hikita",
+          "photo": "tkn_mary_hikita"
+        }
+      ],
+      "lastModificationDate": "08-05-2016:01:55:30"
+    },
+    {
+      "type": "likedpost",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Yuki Hayashi",
+      "lastModificationDate": "07-05-2016:21:15:25"
+    },
+    {
+      "type": "mentions",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Yuki Hayashi",
+      "description": "commented",
+      "comment": "Wow that place looks amazing! I really want to join you guys next time. Please tell me...",
+      "lastModificationDate": "07-05-2016:19:05:30"
+    },
+    {
+      "type": "tookscreenshot",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Yuki Hayashi",
+      "lastModificationDate": "07-05-2016:07:05:30"
+    },
+    {
+      "type": "textpost",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "username": "Yuki Hayashi",
+      "description": "TGIF",
+      "lastModificationDate": "06-05-2016:03:05:37"
+    },
+    {
+      "type": "textpost",
+      "visited": true,
+      "profileImage": "tkn_yuki_hayashi",
+      "username": "Yuki Hayashi",
+      "description": "Thanks to everyone who supported me. I'm really excited to get started and see where...",
+      "lastModificationDate": "05-05-2016:23:05:30"
+    },
+    {
+      "type": "tagging",
+      "profileImage": "tkn_yuki_hayashi",
+      "thumbImage": "example_tilepic2",
+      "username": "Yuki Hayashi",
+      "comment": "",
+      "lastModificationDate": "03-05-2016:09:05:39"
+    }
+  ]
+}

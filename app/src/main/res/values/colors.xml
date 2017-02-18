@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="darker_gray" type="color">#2e2e2e</item>
+  <item name="divider_color" type="color">#ffcccccc</item>
+  <item name="header_background_color" type="color">#e0e0e0</item>
+  <item name="new_header_title_color" type="color">#D5222A</item>
+  <item name="new_header_content_color" type="color">#555555</item>
+  <item name="previous_header_title_color" type="color">#555555</item>
+  <item name="light_gray" type="color">#dddddd</item>
+  <item name="new_ago_color" type="color">#666666</item>
+  <item name="previous_ago_color" type="color">#cccccc</item>
+</resources>

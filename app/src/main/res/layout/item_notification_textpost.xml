@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="130dp"
+    android:orientation="horizontal">
+
+  <FrameLayout
+    android:id="@+id/img_background"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/corner">
+
+    <TextView
+      android:id="@+id/txt_description"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10dp"
+      android:textSize="12sp"
+      android:maxLines="6"
+      android:ellipsize="end"
+      android:gravity="center_vertical"
+      android:text="Thanks to everyone who supported me. I'm really excited to get started and see where..."/>
+  </FrameLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical">
+
+      <com.example.ab.notificationscreen.HeadingImageView
+          android:id="@+id/profile_pic"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_alignParentStart="true"
+          android:src="@drawable/tkn_yuki_hayashi"/>
+
+      <TextView
+          android:id="@+id/txt_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="0dp"
+          android:layout_toRightOf="@+id/profile_pic"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:text="Yuki Hayashi"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/profile_pic"
+          android:layout_below="@+id/txt_title"
+          android:layout_marginLeft="5dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ico_notification_like"/>
+
+        <TextView
+            android:id="@+id/txt_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:text="@string/liked_your_post" />
+
+      </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/previous_ago_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="15m" />
+
+  </RelativeLayout>
+</LinearLayout>
